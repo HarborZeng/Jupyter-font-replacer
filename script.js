@@ -8,8 +8,11 @@
 // @grant        MIT
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
-    alert('change font family')
-    document.querySelectorAll('.CodeMirror').forEach(function(code) { code.style.fontFamily='MONACO' })
+    window.onload = function () {
+        document.querySelectorAll('.CodeMirror').forEach(function (code) {
+            code.style.fontFamily = 'MONACO'
+        })
+    }
 })();
