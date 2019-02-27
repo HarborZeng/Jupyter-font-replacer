@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Jupyter Notebook MONACO
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
+// @namespace    https://tellyouwhat.cn/
+// @version      0.2
+// @description  try to change the jupyter notebook's default font family
 // @author       HarborZeng
 // @match        http://localhost:*/*
 // @grant        MIT
