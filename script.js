@@ -12,7 +12,7 @@
     'use strict';
     window.onload = function () {
         document.querySelectorAll('.CodeMirror').forEach(function (code) {
-            code.style.fontFamily = 'MONACO'
+            code.style.fontFamily = 'MONACO, Consola, Courier, Courier New, Source Code Pro, DejaVu Sans Mono, Droid Sans Mono, InputMono, Iosevka'
         })
     }
 })();
